@@ -90,8 +90,6 @@ custom_uptime_seconds $UPTIME
 METRIC
 EOF
 
-EOF
-
 sudo chmod +x "$NGINX_MONITOR_SCRIPT"
 sudo mkdir -p /var/lib/node_exporter/textfile_collector
 
